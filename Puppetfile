@@ -14,6 +14,6 @@ mod 'apache',
   :git    => 'https://github.com/PuppetRepoForQT/apache.git',
   :branch => 'production'
 
-#mod 'apache',
-#  :git    => 'https://github.com/PuppetRepoForQT/ntp.git',
-#  :branch => 'production'
+mod 'ntp',
+  :git    => 'https://github.com/PuppetRepoForQT/ntp.git',
+  :branch => 'production'
